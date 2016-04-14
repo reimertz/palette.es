@@ -99,5 +99,5 @@ Estimate: 1 week
 
 
 ###Planning
-- 14 weeks including stretch goals
 - 7 weeks
+- 14 weeks including stretch goals
