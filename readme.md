@@ -93,8 +93,7 @@ market this marketplace once it's done.
 
 Estimate: 1 weeks
 
-###Total # of weeks
-14 weeks including stretch goals
-7 weeks
 
-
+###Planning
+- 14 weeks including stretch goals
+- 7 weeks
