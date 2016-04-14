@@ -18,11 +18,11 @@ Estimate: 1 week
 
 #####[ ] Make a generic version of the brand-colors project
 In order to enable the CLI meantioned above, I need to implement a generic version
-of brand-colors that will be used as the boilerplate of above CLI.
+of brand-colors that will be used as the boilerplate for the CLI.
+
+A requirement is that a user should be able to import either a list of colors or a list of images.
 
 Estimate: 2 weeks
-
-Users should be able to import a list of colors or a list of images(containing colors :).
 
 #####[ ] Create an web-interface that utilizes the generic project (stretch goal)
 It would be very optimal if there was a way for people to generate these color
@@ -30,7 +30,7 @@ collections online as well.
 
 Estimate: 3 weeks
 
-#####[ ] Create a tutorial how to use import.io
+#####[ ] Create a tutorial for how to use import.io
 In order to create these collections easily, it would be very
 helpful for users to be able to scrape homepages for images that would
 be used to generate a color collection.
@@ -39,24 +39,28 @@ Estimate: 1 week
 
 #####[ ] Sketch a design for palette.es homepage
 I am a huge fan of simplistic design. So I hope to design
-something beautiful and exciting, while maintaining ease-to-use.
+something beautiful and exciting, while being easy to use.
 
 Estimate: 2 weeks
 
 #####[ ] Implement initial palette.es homepage
 Implement above design using JavaScript, CSS, HTML. Should be written
-using React and build by Webpack so that I can deploy the homepage to
-GitHub Pages, which give me free hosting and CDN.
+using React and built by Webpack so that I can deploy the homepage to
+GitHub Pages, which gives me free hosting and CDN(content-delivery network).
 
 Estimate: 2 weeks
 
 #####[ ] Implement backend-service for generating unique posters per purchase (stretch goal)
-I want each poster to be unique, so each poster should have an unique number, but
+I want each poster to be unique, so each poster should have an unique number etched on it, but
 the colors should also update if the open-sourced project has been updated
 since the last time someone bought the same poster.
 
-My idea is to generate an HTML + CSS, then using Phantom.js to render it as a homepage.
-I will then use Phantom.js `screenshot()` functionality to save the poster to disk.
+My idea is to generate an simple homepage per poster, then using Phantom.js to render it.
+
+Phantom.js could be described as an web-browser controlled through a CLI. So you can do commands
+such as `phantom.goToUrl('http://google.com').click('a:first').screenshot()` which will result in
+the browser going to google.com, clicking the first link and then taking a screenshot of what the browser
+is currently seeing. Very handy for QA'ing, or in this case, rendering my posters. :)
 
 Estimate: 2 weeks
 
