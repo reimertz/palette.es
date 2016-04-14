@@ -8,16 +8,16 @@ color collections I and other users has created based on the initial brand-color
 
 #####[ ] Create a CLI that utilizes the generic project
 ![](https://raw.githubusercontent.com/yeoman/yo/master/screenshot.png)
-yo is an CLI This I will use for inspiration. It's a tool to quickly
-setup web boilerplates. I want to create something similar where
-a user can install my CLI and then just run `palette`. My CLI
-will then guide the user through the process and then generate
+yo is an already existing CLI that I will use as an inspiration for this project. 
+It's a tool to quickly setup web boilerplates. I want to create something similar where
+a user can install my CLI and then just run `palette`. 
+My CLI will then guide the user through the process and then generate
 a boilerplate version of the generic project created below.
 
-Estimate: 1 weeks
+Estimate: 1 week
 
 #####[ ] Make a generic version of the brand-colors project
-In order to enable the CLI, I need to implement a generic version
+In order to enable the CLI meantioned above, I need to implement a generic version
 of brand-colors that will be used as the boilerplate of above CLI.
 
 Estimate: 2 weeks
@@ -35,7 +35,7 @@ In order to create these collections easily, it would be very
 helpful for users to be able to scrape homepages for images that would
 be used to generate a color collection.
 
-Estimate: 1 weeks
+Estimate: 1 week
 
 #####[ ] Sketch a design for palette.es homepage
 I am a huge fan of simplistic design. So I hope to design
@@ -65,20 +65,20 @@ I need to write a backend service that can validate purchases using Stripe so
 that when someone tries to download a poster, I can verify that the file hasn't
 been downloaded before and that the purchase was approved by the bank.
 
-Estimate: 1 weeks
+Estimate: 1 week
 
 #####[ ] Implement backend-service for sending emails
 I need to implement a service that will send an email containing the
 poster if the above purchase-service approves a purchase.
 
-Estimate: 0.5 weeks
+Estimate: 0.5 week
 
 #####[ ] Implement backend-service for sending physical posters (stretch goal)
 I need to implement a service that will talk with the printing company
 if a pruchase was approved by the bank, sending them an image, but also the
 address where the poster should been sent.
 
-Estimate: 1 weeks
+Estimate: 1 week
 
 #####[ ] Find printing company to partner with (stretch goal)
 I obviously need to find a printing company that has an API
@@ -91,7 +91,7 @@ If I have the time, it would be interesting to spend some
 time investigating what the best way would be for me to
 market this marketplace once it's done.
 
-Estimate: 1 weeks
+Estimate: 1 week
 
 
 ###Planning
